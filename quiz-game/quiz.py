@@ -46,12 +46,6 @@ def game():
     print("*******************")
     print("****GAME OVER****")
     print(f"Your score was {score}/5")
-    
-
-    
-
-
-    
 
 
 startGame()
