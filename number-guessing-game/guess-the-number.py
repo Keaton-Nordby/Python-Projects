@@ -8,11 +8,12 @@ import random
 def game():
 
     answer = random.randint(0, 15)
-    guesses_count = 1
+    guesses_count = 0
     print("****NUMBER GUESSING GAME****")
     game_in_progress = True
     
     while game_in_progress:
+        guesses_count += 1
         guess = input("Guess a number between 0-15: ")
         if int(guess) == answer:
             print(f"You guessed correct! It took you {guesses_count} tries.")
@@ -20,10 +21,10 @@ def game():
             break   
         elif int(guess) > answer:
             print("Sorry you guessed too high, try again.")
-            guesses_count += 1
+            
         elif int(guess) < answer:
             print("Sorry you guessed too low, try again.")
-            guesses_count += 1
+            
         else:
             print("Invalid choice")
 
