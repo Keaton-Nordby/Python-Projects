@@ -29,7 +29,6 @@ Each folder generally contains:
 
 - the Python script(s)
 - any extra files the project uses
-- comments inside the code explaining logic
 
 ---
 
