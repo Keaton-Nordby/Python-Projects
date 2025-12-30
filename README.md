@@ -9,6 +9,7 @@ The projects are a mix of:
 - number-guessing and logic games
 - simple GUI apps
 - mini automation scripts
+- AND MORE
 
 Many of these projects are inspired by / based on the **Tech With Tim 9-hour Python projects compilation**, then customized and expanded as I learned.
 
